@@ -22,8 +22,8 @@ class TestSalary {
 		ListOfStubs stub = new ListOfStubs();
 
 	
-		double netsalary =ListOfStubs.intregationCalculateNetSalary(15000, 4);
-		assertEquals(13606, netsalary);
+		double netsalary =ListOfStubs.intregationCalculateNetSalary(18000, 4);
+		assertEquals(17250, netsalary);
 	}
 
 }
